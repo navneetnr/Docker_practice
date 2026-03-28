@@ -1,0 +1,175 @@
+    1  git
+    2  git init
+    3  rm -rf .git
+    4  mkdir class
+    5  cd class
+    6  git init
+    7  git remote add origin https://github.com/navneetnr/class.git
+    8  git branch -M main
+    9  touch file1.txt
+   10  cat > file1.txt
+   11  git add .
+   12  git commit -m "Adding Commit"
+   13  git push
+   14  git push -u origin main
+   15  touch file2.txt
+   16  git add .
+   17  git commit -m "Second commit"
+   18  git push
+   19  cat > file2.txt
+   20  git add .
+   21  git commit -m "Third commit"
+   22  git push
+   23  git branch report
+   24  git status
+   25  git checkout report
+   26  git branch main
+   27  git checkout main
+   28  git add ca.txt
+   29  git add ca
+   30  git add ca.txt
+   31  cd ca
+   32  git branch -M "main"
+   33  git remote add origin https://github.com/navneetnr/ca.git
+   34  git push -u origin main
+   35  git branch
+   36  git branch
+   37  ls
+   38  git init
+   39  git branch -m newbranch master
+   40  git init
+   41  git branch
+   42  git checkout -b newbranch
+   43  echo "my txt" > gitrebase.txt
+   44  git and gitrebase.txt
+   45  git add gitrebase.txt
+   46  nano gitrebase.txt
+   47  git add gitrebase.txt
+   48  git commit -am "first commit"
+   49  git log --oneline--decorate--graph--all
+   50  git log --oneline--decorate--graph
+   51  git log --oneline --decorate --graph
+   52  git nanobase.txt
+   53  nano gitrebase.txt
+   54  cat gitrebase.txt
+   55  git checkout master
+   56  git branch
+   57  mkdir meger -demo
+   58  git branch feature
+   59  echo "New feature added" >> file.txt
+   60  git add file.txt
+   61  git commit -m "Feature: update file
+   62  git commit -m "Feature: update file"
+   63  ihidhfids
+   64  'jfidsf
+   65  sjfskj
+   66  git branch
+   67  mkdir meger -demo
+   68  git branch feature
+   69  echo "New feature added" >> file.txt
+   70  git add file.txt
+   71  git commit -m "Feature: update file
+   72  git tag -a v1.0 -m "First stable release"
+   73  git tag
+   74  git show v1.0
+   75  echo "Version 2 content"
+   76  git log --oneLine
+   77  echo "Version 2 content" > app.txt
+   78  git add app.txt
+   79  git tag -m "Update app to version 2"
+   80  git tag -a v2.0 -m "Second release"
+   81  git tag
+   82  git log --oneline
+   83  git push -u origin master
+   84  touch sample.txt
+   85  git init
+   86  git add README.md
+   87  git commit -m "first commit"
+   88  git branch -M main
+   89  git remote add origin https://github.com/navneetnr/demooooooo.git
+   90  git push -u origin main
+   91  git add .
+   92  git stash
+   93  [200~git stash
+   94  git checkout main
+   95  git init
+   96  git branch sample.txt
+   97  git cat
+   98  git clean
+   99  git clean sample.txt
+  100  git checkout main
+  101  git checkout feature-branch
+  102  git stash pop
+  103  git switch main
+  104  git init
+  105  git branch sample.txt
+  106  git help
+  107  git status
+  108  git add
+  109  git add .
+  110  git ppush
+  111  git push
+  112  git coommit -m
+  113  git
+  114  git mv
+  115  git pull
+  116  git merge sample.txt
+  117  git switch sample.txt
+  118  git log --oneline --graph --all
+  119  neofetch
+  120  nrofetch
+  121  htop
+  122  watch -n 0.5 "netstat -tuln"
+  123  tree
+  124  git diff
+  125  git status
+  126  git help\
+  127  git
+  128  cmatrix
+  129  git
+  130  git status
+  131  git
+  132  git status
+  133  tree
+  134  git
+  135  git bag
+  136  git tag
+  137  git tag
+  138  git rebase
+  139  git fetch
+  140  git add.
+  141  git add .
+  142  cd /c/Users/LENOVO/my-docker-project
+  143  git init
+  144  git remote add origin https://github.com/your-username/your-repo-name.git
+  145  git remote -v
+  146  script commands.log
+  147  exit
+  148  cd my-docker-project
+  149  git pull origin main --rebase
+  150  git push origin main
+  151  git push origin main
+  152  git remote remove origin
+  153  git remote add origin https://github.com/navneetnr/Docker_practice.git
+  154  git status
+  155  git add .
+  156  git commit -m "second commit"
+  157  git branch -M main
+  158  git push -u origin main
+  159  git remote remove origin
+  160  git remote add origin https://github.com/navneetnr/Docker_practice.git
+  161  git add .
+  162  git commit -m "Image formation"
+  163  git branch -M main
+  164  git push -u origin main
+  165  ls
+  166  touch Dockerfile
+  167  git add .
+  168  git commit -m "first real commit"
+  169  git push -u origin main
+  170  history
+  171  git add commands.txt
+  172  git add commands.txt
+  173  touch commands.txt
+  174  echo "docker run -d -p 8080:80 nginx" >> commands.txt
+  175  history > commands.txt
