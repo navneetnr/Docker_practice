@@ -173,3 +173,5 @@
   173  touch commands.txt
   174  echo "docker run -d -p 8080:80 nginx" >> commands.txt
   175  history > commands.txt
+docker run -d -p 8080:80 nginx
+docker ps
